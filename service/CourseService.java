@@ -13,9 +13,9 @@ public class CourseService {
     HashMap<String, Course> courses = new HashMap<>();
 
     public CourseService() {
-        courses.put("cs1", new Course("Introduction to Computer Science", "cs1", 9));
-        courses.put("cs2", new Course("Introduction to Algorithms", "cs2", 9));
-        courses.put("cs3", new Course("Algorithm Design and Problem Solving - Introduction ", "cs3", 9));
+        courses.put("INTRO-CS-1", new Course("Introduction to Computer Science", "INTRO-CS-1", 9));
+        courses.put("INTRO-CS-2", new Course("Introduction to Algorithms", "INTRO-CS-2", 9));
+        courses.put("INTRO-CS-3", new Course("Algorithm Design and Problem Solving - Introduction ", "INTRO-CS-3", 9));
         courses.put("INTRO-CS-4", new Course("Algorithm Design and Problem Solving - Advanced", "INTRO-CS-4", 9));
         courses.put("INTRO-CS-5", new Course("Terminal Fundamentals", "INTRO-CS-5", 9));
         courses.put("INTRO-CS-6", new Course("Source Control Using Git and Github", "INTRO-CS-6", 9));
