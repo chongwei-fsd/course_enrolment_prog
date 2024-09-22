@@ -65,6 +65,7 @@ public class StudentService {
 
     public void setStudentScore(String courseId, String studentId, int grade) {
         students.get(studentId).setCourseGrades(courseId, grade);
+        students.get(studentId).setGrade(grade);
     }
 
     public String getStudentResult(String studentId){
