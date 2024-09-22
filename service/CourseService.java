@@ -74,13 +74,5 @@ public class CourseService {
         }
     }
 
-    public void setStudentScore(String courseId,String studentId,int grade){
-        List<Student>students=enrolledStudents.get(courseId);
-        for(Student stud:students){
-            if(stud.getId().equals(studentId)){
-                stud.setGrade(grade);
-            }
-        }
-    }
 
 }
