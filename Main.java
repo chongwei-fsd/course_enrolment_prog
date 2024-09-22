@@ -33,7 +33,7 @@ public class Main
                     findStudent( studentService, scanner );
                     break;
                 case 3:
-                    gradeStudent( studentService,courseService,scanner );
+                    gradeStudent( studentService,scanner );
                     break;
                 case 4:
                     enrollStudentToCourse( studentService, courseService, scanner );
@@ -105,7 +105,7 @@ public class Main
         studentService.showSummary();
     }
 
-    private static void gradeStudent( StudentService studentService,CourseService courseService,Scanner scanner )
+    private static void gradeStudent( StudentService studentService,Scanner scanner )
     {
         Student student=null;
         String studentId="";
@@ -134,7 +134,6 @@ public class Main
         }
         int grade=scanner.nextInt();
         studentService.setStudentScore(courseId,studentId,grade);
-        courseService.setStudentScore(courseId,studentId,grade);
         System.out.println(studentService.getStudentResult(studentId));//show result
     }
 
