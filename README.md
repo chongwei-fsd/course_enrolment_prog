@@ -11,4 +11,4 @@ Grade students
 Check course average grade
 
 Language / tool :
-https://lewchongwei.netlify.app/imgs/java.svg
+![java](https://github.com/user-attachments/assets/e43a41a0-3ed7-48e0-856e-84d6d36b8af1)
