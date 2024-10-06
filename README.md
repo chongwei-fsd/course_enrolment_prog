@@ -10,5 +10,5 @@ Grade students
 
 Check course average grade
 
-Language / tool :
-![java](https://github.com/user-attachments/assets/e43a41a0-3ed7-48e0-856e-84d6d36b8af1)
+https://github.com/user-attachments/assets/34b29027-7299-4141-858c-3290f704cacc
+
