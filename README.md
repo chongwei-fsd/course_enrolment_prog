@@ -6,6 +6,5 @@
 <li>Check course average grade</li>
 <li>Language / tool : Java</li>
 
-<br>
 https://github.com/user-attachments/assets/34b29027-7299-4141-858c-3290f704cacc
 
